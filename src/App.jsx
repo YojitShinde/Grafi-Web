@@ -61,7 +61,7 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <img src="/Grafi-Icon.png" alt="Grafi" className="logo-icon" />
+            <img src={`${import.meta.env.BASE_URL}Grafi-Icon.png`} alt="Grafi" className="logo-icon" />
             <span className="logo-text">Grafi</span>
           </div>
           <nav className="nav">
@@ -257,7 +257,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="logo">
-                <img src="/Grafi-Icon.png" alt="Grafi" className="logo-icon" />
+                <img src={`${import.meta.env.BASE_URL}Grafi-Icon.png`} alt="Grafi" className="logo-icon" />
                 <span className="logo-text">Grafi</span>
               </div>
               <p>AI-powered meeting minutes generator for Windows</p>
