@@ -232,7 +232,7 @@ function App() {
               <button 
                 className="btn btn-download"
                 onClick={() => {
-                  window.location.href = '';
+                  window.location.href = 'https://github.com/YojitShinde/Grafi-Web/releases/download/v1.0.0/Grafi_Setup_v1.0.0.exe';
                 }}
               >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
